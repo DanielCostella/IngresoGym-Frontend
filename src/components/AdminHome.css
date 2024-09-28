@@ -1,0 +1,54 @@
+/* Fondo gris claro para toda la página */
+body {
+    background-color: #f0f0f0; /* Fondo gris claro */
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    font-size: 36px;
+    color: #333;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  p {
+    font-size: 24px;
+    text-align: center;
+    color: #555;
+  }
+  
+  /* Centrado de los botones */
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px auto;
+    text-align: center;
+  }
+  
+  li {
+    margin: 20px 0; /* Más espacio entre los botones */
+  }
+  
+  /* Estilos de los botones */
+  .btn-custom {
+    display: inline-block;
+    background-color: #28a745;          /* Fondo verde */
+    color: white;                       /* Texto blanco */
+    border: 3px solid #28a745;          /* Borde verde */
+    border-radius: 10px;                /* Bordes redondeados */
+    padding: 20px 40px;                 /* Tamaño más grande */
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    transition: all 0.3s ease;          /* Transición suave para hover */
+    width: 300px;                       /* Ancho fijo para uniformidad */
+    text-align: center;                 /* Centrar el texto */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Pequeña sombra para resaltar */
+  }
+  
+  .btn-custom:hover {
+    background-color: #218838;          /* Mantiene el fondo verde oscuro al pasar el ratón */
+    color: white;                       /* Texto blanco */
+  }

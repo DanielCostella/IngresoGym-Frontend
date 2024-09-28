@@ -1,0 +1,48 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4; /* Fondo gris claro */
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    font-size: 36px;
+    color: #333;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  p {
+    font-size: 24px;
+    text-align: center;
+    color: #555;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px auto;
+    text-align: center;
+  }
+  
+  li {
+    margin: 15px 0; /* Más espacio entre los botones */
+  }
+  
+  a {
+    display: inline-block;
+    padding: 15px 30px; /* Tamaño más grande para botones */
+    background-color: black; /* Fondo negro */
+    color: white; /* Texto blanco */
+    border: 2px solid #4CAF50; /* Borde verde */
+    border-radius: 10px; /* Borde redondeado */
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s; /* Transición suave para hover */
+  }
+  
+  a:hover {
+    background-color: #4CAF50; /* Fondo verde al pasar el ratón */
+    color: black; /* Texto negro al pasar el ratón */
+  }

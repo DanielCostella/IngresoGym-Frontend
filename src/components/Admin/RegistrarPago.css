@@ -1,0 +1,53 @@
+/* Estilos para el formulario de Registrar Pago */
+.registrar-pago-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .registrar-pago-form label {
+    font-weight: bold;
+  }
+  
+  .registrar-pago-form input[type="text"] {
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    max-width: 300px;
+  }
+  
+  .mes-pagado-box {
+    background-color: yellow;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+  
+  .mes-pagado-box input[type="month"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    max-width: 300px;
+  }
+  
+  .registrar-pago-form button {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .registrar-pago-form button:hover {
+    background-color: #45a049;
+  }
+  
+  .mensaje {
+    margin-top: 15px;
+    font-size: 1.1em;
+    color: #333;
+  }
